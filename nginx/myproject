@@ -1,0 +1,11 @@
+server {
+    listen 80;
+    server_name default_server;
+
+    access_log syslog:server=[2001:db8::1]:1234,facility=local7,tag=nginx,severity=info;
+
+    location / {
+        include /etc/nginx/uwsgi_params;
+        uwsgi_pass unix:/home/flask/myproject/myproject.sock;
+    }
+}

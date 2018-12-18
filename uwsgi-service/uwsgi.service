@@ -1,0 +1,9 @@
+[Unit]
+Description=uWSGI instance to serve myproject
+
+[Service]
+ExecStartPre=-/bin/bash -c 'chown flask:root /home/flask/myproject'
+ExecStart=/bin/bash -c 'cd /home/flask/myproject; source myprojectenv/bin/activate; uwsgi --ini myproject.ini'
+
+[Install]
+WantedBy=multi-user.target
