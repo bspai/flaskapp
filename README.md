@@ -9,6 +9,17 @@ Create a username *flask* in Ubuntu and give sudo privilege and login as *flask*
 
 Clone this repo to home folder and rename the folder as myproject.
 
+Install python,pip,nginx as below,
+```
+  sudo apt-get update
+  sudo apt-get install python-pip python-dev nginx
+```
+
+Install python virtual environment as below,
+```
+  sudo pip install virtualenv
+```
+
 Copy the ~/myproject/uwsgi-service/uwsgi.service to /etc/systemd/system and run
 ```
   sudo systemctl start uwsgi.service
