@@ -9,6 +9,5 @@ services:
     - ./supervisord.conf:/app/supervisord.conf
     ports:
     - "8180:80"
-    - "5500:5000"
     command: "supervisord -c /app/supervisord.conf"
  
