@@ -1,0 +1,14 @@
+version: '2'
+services:
+  web:
+    image: nginxpy:2
+    container_name: "nginxpy"
+    volumes:
+    - ./default:/etc/nginx/conf.d/default.conf:ro
+    - ./app:/app
+    - ./supervisord.conf:/app/supervisord.conf
+    ports:
+    - "8180:80"
+    - "5500:5000"
+    command: "supervisord -c /app/supervisord.conf"
+ 

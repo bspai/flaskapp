@@ -1,0 +1,695 @@
+2018-12-20 08:07:05,608 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:07:05,611 INFO supervisord started with pid 1
+2018-12-20 08:07:06,613 INFO spawnerr: can't find command '/usr/local/bin/uwsgi'
+2018-12-20 08:07:07,616 INFO spawnerr: can't find command '/usr/local/bin/uwsgi'
+2018-12-20 08:07:09,621 INFO spawnerr: can't find command '/usr/local/bin/uwsgi'
+2018-12-20 08:07:12,208 WARN received SIGTERM indicating exit request
+2018-12-20 08:07:38,074 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:07:38,077 INFO supervisord started with pid 1
+2018-12-20 08:07:39,081 INFO spawned: 'uwsgi' with pid 7
+2018-12-20 08:07:39,109 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:07:40,114 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 08:07:40,153 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:07:42,155 INFO spawned: 'uwsgi' with pid 9
+2018-12-20 08:07:42,178 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:07:45,184 INFO spawned: 'uwsgi' with pid 10
+2018-12-20 08:07:45,197 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:07:46,198 INFO gave up: uwsgi entered FATAL state, too many start retries too quickly
+2018-12-20 08:07:54,867 WARN received SIGTERM indicating exit request
+2018-12-20 08:10:51,267 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:10:51,270 INFO supervisord started with pid 1
+2018-12-20 08:10:52,276 INFO spawned: 'uwsgi' with pid 7
+2018-12-20 08:10:52,316 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:10:53,321 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 08:10:54,356 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:10:54,356 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:10:55,362 INFO spawned: 'uwsgi' with pid 9
+2018-12-20 08:10:55,399 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:10:56,405 INFO spawned: 'uwsgi' with pid 10
+2018-12-20 08:10:56,414 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:10:58,419 INFO spawned: 'uwsgi' with pid 11
+2018-12-20 08:10:58,438 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:11:01,449 INFO spawned: 'uwsgi' with pid 12
+2018-12-20 08:11:01,489 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:11:01,489 INFO gave up: uwsgi entered FATAL state, too many start retries too quickly
+2018-12-20 08:11:33,231 WARN received SIGTERM indicating exit request
+2018-12-20 08:12:41,968 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:12:41,971 INFO supervisord started with pid 1
+2018-12-20 08:12:42,975 INFO spawned: 'uwsgi' with pid 7
+2018-12-20 08:12:44,132 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:13:47,533 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:13:47,538 INFO supervisord started with pid 1
+2018-12-20 08:13:48,540 INFO spawned: 'uwsgi' with pid 7
+2018-12-20 08:13:49,554 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:16:51,191 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:16:51,195 INFO supervisord started with pid 1
+2018-12-20 08:16:52,200 INFO spawned: 'nginx' with pid 8
+2018-12-20 08:16:52,205 INFO spawned: 'uwsgi' with pid 9
+2018-12-20 08:16:52,234 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:16:52,244 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:16:53,250 INFO spawned: 'nginx' with pid 12
+2018-12-20 08:16:53,256 INFO spawned: 'uwsgi' with pid 13
+2018-12-20 08:16:53,294 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:16:54,282 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:16:55,786 INFO spawned: 'uwsgi' with pid 14
+2018-12-20 08:16:55,787 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:16:55,788 INFO spawned: 'nginx' with pid 15
+2018-12-20 08:16:55,800 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:16:56,808 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:16:58,314 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:16:58,315 INFO spawned: 'nginx' with pid 16
+2018-12-20 08:16:58,828 INFO spawned: 'uwsgi' with pid 17
+2018-12-20 08:16:59,328 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:16:59,328 INFO exited: uwsgi (exit status 22; not expected)
+2018-12-20 08:16:59,831 INFO gave up: uwsgi entered FATAL state, too many start retries too quickly
+2018-12-20 08:17:00,833 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:17:01,822 INFO spawned: 'nginx' with pid 18
+2018-12-20 08:17:01,822 WARN received SIGTERM indicating exit request
+2018-12-20 08:17:01,823 INFO waiting for nginx to die
+2018-12-20 08:17:49,272 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:17:49,275 INFO supervisord started with pid 1
+2018-12-20 08:17:50,280 INFO spawned: 'nginx' with pid 8
+2018-12-20 08:17:50,286 INFO spawned: 'uwsgi' with pid 9
+2018-12-20 08:17:50,313 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:17:51,333 INFO spawned: 'nginx' with pid 17
+2018-12-20 08:17:51,333 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:17:52,343 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:17:53,846 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:17:54,850 INFO spawned: 'nginx' with pid 18
+2018-12-20 08:17:55,864 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:17:57,368 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:17:57,372 INFO spawned: 'nginx' with pid 19
+2018-12-20 08:17:58,384 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:17:59,887 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:18:00,889 INFO spawned: 'nginx' with pid 20
+2018-12-20 08:18:01,904 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:18:02,327 WARN received SIGTERM indicating exit request
+2018-12-20 08:18:02,327 INFO waiting for nginx, uwsgi to die
+2018-12-20 08:19:35,995 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:19:36,004 INFO supervisord started with pid 1
+2018-12-20 08:19:37,006 INFO spawned: 'nginx' with pid 8
+2018-12-20 08:19:37,008 INFO spawned: 'uwsgi' with pid 9
+2018-12-20 08:19:37,030 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:19:38,039 INFO spawned: 'nginx' with pid 17
+2018-12-20 08:19:38,039 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:19:39,050 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:19:40,455 WARN received SIGTERM indicating exit request
+2018-12-20 08:19:40,455 INFO waiting for nginx, uwsgi to die
+2018-12-20 08:19:40,552 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:19:41,461 INFO stopped: uwsgi (exit status 0)
+2018-12-20 08:34:53,276 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:34:53,279 INFO supervisord started with pid 1
+2018-12-20 08:34:54,283 INFO spawned: 'uwsgi' with pid 7
+2018-12-20 08:34:54,285 INFO spawned: 'nginx' with pid 8
+2018-12-20 08:34:54,311 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:34:55,315 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:34:55,319 INFO spawned: 'nginx' with pid 16
+2018-12-20 08:34:56,357 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:34:57,322 WARN received SIGTERM indicating exit request
+2018-12-20 08:34:57,322 INFO waiting for nginx, uwsgi to die
+2018-12-20 08:37:35,605 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:37:35,608 INFO supervisord started with pid 1
+2018-12-20 08:37:36,615 INFO spawned: 'uwsgi' with pid 7
+2018-12-20 08:37:36,621 INFO spawned: 'nginx' with pid 8
+2018-12-20 08:37:36,651 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:37:37,653 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:37:37,654 INFO spawned: 'nginx' with pid 16
+2018-12-20 08:37:38,670 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:37:40,174 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:37:41,179 INFO spawned: 'nginx' with pid 17
+2018-12-20 08:37:42,192 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:37:43,693 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:37:44,571 INFO spawned: 'nginx' with pid 18
+2018-12-20 08:37:44,571 WARN received SIGTERM indicating exit request
+2018-12-20 08:37:44,571 INFO waiting for nginx, uwsgi to die
+2018-12-20 08:37:47,089 INFO stopped: nginx (exit status 1)
+2018-12-20 08:37:48,091 INFO waiting for uwsgi to die
+2018-12-20 08:37:48,092 INFO stopped: uwsgi (exit status 0)
+2018-12-20 08:38:09,814 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:38:09,817 INFO supervisord started with pid 1
+2018-12-20 08:38:10,821 INFO spawned: 'uwsgi' with pid 7
+2018-12-20 08:38:10,822 INFO spawned: 'nginx' with pid 8
+2018-12-20 08:38:10,836 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:38:11,846 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:38:11,847 INFO spawned: 'nginx' with pid 16
+2018-12-20 08:38:12,858 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:41:05,496 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:41:05,499 INFO supervisord started with pid 1
+2018-12-20 08:41:06,502 INFO spawned: 'nginx' with pid 7
+2018-12-20 08:41:06,513 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:41:07,515 INFO spawned: 'nginx' with pid 10
+2018-12-20 08:41:08,529 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:41:09,314 WARN received SIGTERM indicating exit request
+2018-12-20 08:41:09,315 INFO waiting for nginx to die
+2018-12-20 08:41:09,483 INFO stopped: nginx (terminated by SIGQUIT (core dumped))
+2018-12-20 08:42:04,886 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:42:04,889 INFO supervisord started with pid 1
+2018-12-20 08:42:05,892 INFO spawned: 'nginx' with pid 7
+2018-12-20 08:42:05,903 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:42:06,905 INFO spawned: 'nginx' with pid 10
+2018-12-20 08:42:07,917 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:44:06,335 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:44:06,338 INFO supervisord started with pid 1
+2018-12-20 08:44:07,342 INFO spawned: 'nginx' with pid 7
+2018-12-20 08:44:07,357 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:44:08,363 INFO spawned: 'nginx' with pid 10
+2018-12-20 08:44:09,395 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:44:24,174 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 08:44:24,177 INFO supervisord started with pid 1
+2018-12-20 08:44:25,179 INFO spawned: 'nginx' with pid 7
+2018-12-20 08:44:25,191 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:44:26,193 INFO spawned: 'nginx' with pid 10
+2018-12-20 08:44:27,204 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:44:28,249 WARN received SIGTERM indicating exit request
+2018-12-20 08:44:28,250 INFO waiting for nginx to die
+2018-12-20 08:45:17,925 INFO Set uid to user 0 succeeded
+2018-12-20 08:45:17,928 INFO supervisord started with pid 1
+2018-12-20 08:45:18,932 INFO spawned: 'nginx' with pid 7
+2018-12-20 08:45:18,962 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 08:45:19,973 INFO spawned: 'nginx' with pid 10
+2018-12-20 08:45:21,014 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:22,515 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:23,519 INFO spawned: 'nginx' with pid 11
+2018-12-20 08:45:24,534 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:26,036 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:27,039 INFO spawned: 'nginx' with pid 12
+2018-12-20 08:45:28,051 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:29,553 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:30,557 INFO spawned: 'nginx' with pid 13
+2018-12-20 08:45:31,581 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:33,086 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:33,087 INFO spawned: 'nginx' with pid 14
+2018-12-20 08:45:34,099 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:35,603 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:35,604 INFO spawned: 'nginx' with pid 15
+2018-12-20 08:45:36,617 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:38,125 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:38,128 INFO spawned: 'nginx' with pid 16
+2018-12-20 08:45:39,155 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:40,659 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:41,661 INFO spawned: 'nginx' with pid 17
+2018-12-20 08:45:42,677 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:44,182 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:44,184 INFO spawned: 'nginx' with pid 18
+2018-12-20 08:45:45,201 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:46,705 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:47,707 INFO spawned: 'nginx' with pid 19
+2018-12-20 08:45:48,723 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:50,229 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:51,233 INFO spawned: 'nginx' with pid 20
+2018-12-20 08:45:52,246 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:53,749 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:53,750 INFO spawned: 'nginx' with pid 21
+2018-12-20 08:45:54,764 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:56,268 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:56,270 INFO spawned: 'nginx' with pid 22
+2018-12-20 08:45:57,296 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:45:58,801 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:45:58,805 INFO spawned: 'nginx' with pid 23
+2018-12-20 08:45:59,827 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:01,331 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:01,333 INFO spawned: 'nginx' with pid 24
+2018-12-20 08:46:02,348 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:03,850 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:04,853 INFO spawned: 'nginx' with pid 25
+2018-12-20 08:46:05,866 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:07,369 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:07,370 INFO spawned: 'nginx' with pid 26
+2018-12-20 08:46:08,381 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:09,884 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:09,885 INFO spawned: 'nginx' with pid 27
+2018-12-20 08:46:10,897 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:12,404 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:13,406 INFO spawned: 'nginx' with pid 28
+2018-12-20 08:46:14,417 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:15,920 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:15,920 INFO spawned: 'nginx' with pid 29
+2018-12-20 08:46:16,936 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:18,441 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:19,445 INFO spawned: 'nginx' with pid 30
+2018-12-20 08:46:20,475 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:21,978 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:22,980 INFO spawned: 'nginx' with pid 31
+2018-12-20 08:46:23,995 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:25,498 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:26,500 INFO spawned: 'nginx' with pid 32
+2018-12-20 08:46:27,516 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:29,021 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:30,023 INFO spawned: 'nginx' with pid 33
+2018-12-20 08:46:31,036 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:32,542 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:33,544 INFO spawned: 'nginx' with pid 34
+2018-12-20 08:46:34,557 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:36,063 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:37,065 INFO spawned: 'nginx' with pid 35
+2018-12-20 08:46:38,078 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:39,580 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:39,581 INFO spawned: 'nginx' with pid 36
+2018-12-20 08:46:40,594 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:42,100 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:43,102 INFO spawned: 'nginx' with pid 37
+2018-12-20 08:46:44,120 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:45,625 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:46,627 INFO spawned: 'nginx' with pid 38
+2018-12-20 08:46:47,642 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:49,144 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:50,149 INFO spawned: 'nginx' with pid 39
+2018-12-20 08:46:51,165 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:52,672 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:53,677 INFO spawned: 'nginx' with pid 40
+2018-12-20 08:46:54,698 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:56,200 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:57,203 INFO spawned: 'nginx' with pid 41
+2018-12-20 08:46:58,218 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:46:59,720 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:46:59,722 INFO spawned: 'nginx' with pid 42
+2018-12-20 08:47:00,732 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:02,237 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:03,240 INFO spawned: 'nginx' with pid 43
+2018-12-20 08:47:04,252 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:05,756 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:05,757 INFO spawned: 'nginx' with pid 44
+2018-12-20 08:47:06,774 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:08,280 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:09,285 INFO spawned: 'nginx' with pid 45
+2018-12-20 08:47:10,297 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:11,802 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:12,804 INFO spawned: 'nginx' with pid 46
+2018-12-20 08:47:13,815 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:15,321 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:15,325 INFO spawned: 'nginx' with pid 47
+2018-12-20 08:47:16,350 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:17,853 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:18,855 INFO spawned: 'nginx' with pid 48
+2018-12-20 08:47:19,868 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:21,370 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:22,372 INFO spawned: 'nginx' with pid 49
+2018-12-20 08:47:23,385 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:24,888 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:25,889 INFO spawned: 'nginx' with pid 50
+2018-12-20 08:47:26,903 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:28,405 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:28,407 INFO spawned: 'nginx' with pid 51
+2018-12-20 08:47:29,420 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:30,923 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:31,927 INFO spawned: 'nginx' with pid 52
+2018-12-20 08:47:32,952 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:34,457 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:34,460 INFO spawned: 'nginx' with pid 53
+2018-12-20 08:47:35,486 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:36,987 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:37,990 INFO spawned: 'nginx' with pid 54
+2018-12-20 08:47:39,003 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:40,509 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:41,513 INFO spawned: 'nginx' with pid 55
+2018-12-20 08:47:42,542 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:44,044 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:45,046 INFO spawned: 'nginx' with pid 56
+2018-12-20 08:47:46,057 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:47,563 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:47,564 INFO spawned: 'nginx' with pid 57
+2018-12-20 08:47:48,578 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:50,082 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:50,086 INFO spawned: 'nginx' with pid 58
+2018-12-20 08:47:51,113 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:52,614 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:52,615 INFO spawned: 'nginx' with pid 59
+2018-12-20 08:47:53,627 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:55,131 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:56,133 INFO spawned: 'nginx' with pid 60
+2018-12-20 08:47:57,143 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:47:58,646 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:47:58,647 INFO spawned: 'nginx' with pid 61
+2018-12-20 08:47:59,661 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:48:01,164 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:48:02,167 INFO spawned: 'nginx' with pid 62
+2018-12-20 08:48:03,188 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:48:04,691 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:48:05,694 INFO spawned: 'nginx' with pid 63
+2018-12-20 08:48:06,707 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:48:08,215 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:48:08,218 INFO spawned: 'nginx' with pid 64
+2018-12-20 08:48:09,242 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:48:10,745 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:48:11,747 INFO spawned: 'nginx' with pid 65
+2018-12-20 08:48:12,761 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:48:14,266 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:48:15,268 INFO spawned: 'nginx' with pid 66
+2018-12-20 08:48:16,290 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:48:17,802 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 08:48:18,172 INFO spawned: 'nginx' with pid 67
+2018-12-20 08:48:18,173 WARN received SIGTERM indicating exit request
+2018-12-20 08:48:18,173 INFO waiting for nginx to die
+2018-12-20 08:48:23,806 INFO Set uid to user 0 succeeded
+2018-12-20 08:48:23,810 INFO supervisord started with pid 1
+2018-12-20 08:48:24,814 INFO spawned: 'nginx' with pid 7
+2018-12-20 08:48:25,815 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:48:37,441 WARN received SIGTERM indicating exit request
+2018-12-20 08:48:37,441 INFO waiting for nginx to die
+2018-12-20 08:48:37,472 INFO stopped: nginx (exit status 0)
+2018-12-20 08:48:41,087 INFO Set uid to user 0 succeeded
+2018-12-20 08:48:41,090 INFO supervisord started with pid 1
+2018-12-20 08:48:42,095 INFO spawned: 'nginx' with pid 8
+2018-12-20 08:48:43,097 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:48:45,127 WARN received SIGTERM indicating exit request
+2018-12-20 08:48:45,127 INFO waiting for nginx to die
+2018-12-20 08:48:45,160 INFO stopped: nginx (exit status 0)
+2018-12-20 08:49:30,271 INFO Set uid to user 0 succeeded
+2018-12-20 08:49:30,273 INFO supervisord started with pid 1
+2018-12-20 08:49:31,277 INFO spawned: 'nginx' with pid 7
+2018-12-20 08:49:31,283 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 08:49:32,321 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:49:32,321 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:50:31,814 WARN received SIGTERM indicating exit request
+2018-12-20 08:50:31,814 INFO waiting for nginx, uwsgi to die
+2018-12-20 08:55:43,784 INFO Set uid to user 0 succeeded
+2018-12-20 08:55:43,788 INFO supervisord started with pid 1
+2018-12-20 08:55:44,791 INFO spawned: 'nginx' with pid 8
+2018-12-20 08:55:44,793 INFO spawned: 'uwsgi' with pid 9
+2018-12-20 08:55:45,814 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:55:45,814 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:55:59,648 WARN received SIGTERM indicating exit request
+2018-12-20 08:55:59,648 INFO waiting for nginx, uwsgi to die
+2018-12-20 08:56:54,403 INFO Set uid to user 0 succeeded
+2018-12-20 08:56:54,405 INFO supervisord started with pid 1
+2018-12-20 08:56:55,410 INFO spawned: 'nginx' with pid 9
+2018-12-20 08:56:55,416 INFO spawned: 'uwsgi' with pid 10
+2018-12-20 08:56:56,446 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:56:56,446 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 08:57:06,444 WARN received SIGTERM indicating exit request
+2018-12-20 08:57:06,444 INFO waiting for nginx, uwsgi to die
+2018-12-20 08:57:07,447 INFO stopped: uwsgi (exit status 0)
+2018-12-20 08:57:09,450 INFO waiting for nginx to die
+2018-12-20 08:57:12,455 INFO waiting for nginx to die
+2018-12-20 08:57:15,460 INFO waiting for nginx to die
+2018-12-20 09:00:48,582 INFO Set uid to user 0 succeeded
+2018-12-20 09:00:48,585 INFO supervisord started with pid 1
+2018-12-20 09:00:49,588 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:00:49,589 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:00:50,620 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:00:50,621 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:01:09,837 WARN received SIGTERM indicating exit request
+2018-12-20 09:01:09,837 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:01:10,840 INFO stopped: uwsgi (exit status 0)
+2018-12-20 09:01:12,843 INFO waiting for nginx to die
+2018-12-20 09:01:15,849 INFO waiting for nginx to die
+2018-12-20 09:01:18,854 INFO waiting for nginx to die
+2018-12-20 09:01:37,817 INFO Set uid to user 0 succeeded
+2018-12-20 09:01:37,823 INFO supervisord started with pid 1
+2018-12-20 09:01:38,826 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:01:38,828 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:01:39,849 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:01:39,849 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:02:50,656 INFO Set uid to user 0 succeeded
+2018-12-20 09:02:50,659 INFO supervisord started with pid 1
+2018-12-20 09:02:51,664 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:02:51,669 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:02:52,712 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:02:52,712 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:03:10,608 WARN received SIGTERM indicating exit request
+2018-12-20 09:03:10,610 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:03:22,936 INFO Set uid to user 0 succeeded
+2018-12-20 09:03:22,939 INFO supervisord started with pid 1
+2018-12-20 09:03:23,945 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:03:23,951 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:03:24,981 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:03:24,982 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:04:14,911 WARN received SIGTERM indicating exit request
+2018-12-20 09:04:14,912 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:04:15,914 INFO stopped: uwsgi (exit status 0)
+2018-12-20 09:04:15,944 INFO stopped: nginx (exit status 0)
+2018-12-20 09:13:07,583 INFO Set uid to user 0 succeeded
+2018-12-20 09:13:07,586 INFO supervisord started with pid 1
+2018-12-20 09:13:08,591 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:13:08,597 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:13:09,632 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:13:09,632 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:16:52,133 WARN received SIGTERM indicating exit request
+2018-12-20 09:16:52,135 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:16:53,138 INFO stopped: uwsgi (exit status 0)
+2018-12-20 09:16:53,180 INFO stopped: nginx (exit status 0)
+2018-12-20 09:17:07,648 INFO Set uid to user 0 succeeded
+2018-12-20 09:17:07,651 INFO supervisord started with pid 1
+2018-12-20 09:17:08,655 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:17:08,661 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:17:09,686 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:17:09,686 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:17:36,803 WARN received SIGTERM indicating exit request
+2018-12-20 09:17:36,805 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:17:37,812 INFO stopped: uwsgi (exit status 0)
+2018-12-20 09:17:37,848 INFO stopped: nginx (exit status 0)
+2018-12-20 09:18:00,434 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 09:18:00,437 INFO supervisord started with pid 1
+2018-12-20 09:18:01,440 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:18:01,442 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:18:02,478 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:18:02,479 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:18:40,778 WARN received SIGTERM indicating exit request
+2018-12-20 09:18:40,780 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:18:41,780 INFO stopped: uwsgi (exit status 0)
+2018-12-20 09:18:41,819 INFO stopped: nginx (exit status 0)
+2018-12-20 09:19:47,447 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 09:19:47,450 INFO supervisord started with pid 1
+2018-12-20 09:19:48,454 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:19:48,455 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:19:49,487 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:19:49,487 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:20:11,217 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 09:20:11,220 INFO supervisord started with pid 1
+2018-12-20 09:20:12,225 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:20:12,231 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:20:13,273 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:20:13,274 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:20:19,892 WARN received SIGTERM indicating exit request
+2018-12-20 09:20:19,892 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:21:22,326 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 09:21:22,330 INFO supervisord started with pid 1
+2018-12-20 09:21:23,332 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:21:23,334 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:21:24,353 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:21:24,353 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:21:30,304 WARN received SIGTERM indicating exit request
+2018-12-20 09:21:30,305 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:23:23,229 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 09:23:23,232 INFO supervisord started with pid 1
+2018-12-20 09:23:24,237 INFO spawned: 'nginx' with pid 8
+2018-12-20 09:23:24,242 INFO spawned: 'uwsgi' with pid 9
+2018-12-20 09:23:25,278 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:23:25,278 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:24:16,743 WARN received SIGTERM indicating exit request
+2018-12-20 09:24:16,743 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:24:41,573 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 09:24:41,576 INFO supervisord started with pid 1
+2018-12-20 09:24:42,581 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:24:42,586 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:24:42,613 INFO exited: nginx (exit status 0; not expected)
+2018-12-20 09:24:43,628 INFO spawned: 'nginx' with pid 16
+2018-12-20 09:24:43,630 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:24:44,662 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:24:45,346 WARN received SIGTERM indicating exit request
+2018-12-20 09:24:45,347 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:25:12,051 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 09:25:12,056 INFO supervisord started with pid 1
+2018-12-20 09:25:13,060 INFO spawned: 'nginx' with pid 8
+2018-12-20 09:25:13,061 INFO spawned: 'uwsgi' with pid 9
+2018-12-20 09:25:14,075 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:25:14,076 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:27:46,280 WARN received SIGTERM indicating exit request
+2018-12-20 09:27:46,280 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:27:47,287 INFO stopped: uwsgi (exit status 0)
+2018-12-20 09:27:47,328 INFO stopped: nginx (exit status 0)
+2018-12-20 09:28:29,452 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 09:28:29,455 INFO supervisord started with pid 1
+2018-12-20 09:28:30,458 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:28:30,459 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:28:31,479 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:28:31,480 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:32:08,502 WARN received SIGTERM indicating exit request
+2018-12-20 09:32:08,502 INFO waiting for nginx, uwsgi to die
+2018-12-20 09:32:08,507 INFO stopped: uwsgi (exit status 0)
+2018-12-20 09:32:08,540 INFO stopped: nginx (exit status 0)
+2018-12-20 09:33:05,364 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 09:33:05,367 INFO supervisord started with pid 1
+2018-12-20 09:33:06,370 INFO spawned: 'nginx' with pid 7
+2018-12-20 09:33:06,372 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 09:33:07,392 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 09:33:07,393 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 10:53:27,293 WARN received SIGTERM indicating exit request
+2018-12-20 10:53:27,294 INFO waiting for nginx, uwsgi to die
+2018-12-20 10:53:27,301 INFO stopped: uwsgi (exit status 0)
+2018-12-20 10:53:27,340 INFO stopped: nginx (exit status 0)
+2018-12-20 10:54:57,115 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 10:54:57,124 INFO supervisord started with pid 1
+2018-12-20 10:54:58,127 INFO spawned: 'nginx' with pid 7
+2018-12-20 10:54:58,131 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 10:54:59,174 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 10:54:59,174 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 10:56:53,326 WARN received SIGTERM indicating exit request
+2018-12-20 10:56:53,333 INFO waiting for nginx, uwsgi to die
+2018-12-20 10:56:54,332 INFO stopped: uwsgi (exit status 0)
+2018-12-20 10:56:54,365 INFO stopped: nginx (exit status 0)
+2018-12-20 10:57:36,126 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 10:57:36,130 INFO supervisord started with pid 1
+2018-12-20 10:57:37,135 INFO spawned: 'nginx' with pid 7
+2018-12-20 10:57:37,142 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 10:57:37,176 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 10:57:38,199 INFO spawned: 'nginx' with pid 14
+2018-12-20 10:57:38,200 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 10:57:38,221 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 10:57:40,228 INFO spawned: 'nginx' with pid 15
+2018-12-20 10:57:40,263 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 10:57:43,272 INFO spawned: 'nginx' with pid 16
+2018-12-20 10:57:43,298 INFO exited: nginx (exit status 1; not expected)
+2018-12-20 10:57:44,300 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2018-12-20 10:57:45,383 WARN received SIGTERM indicating exit request
+2018-12-20 10:57:45,383 INFO waiting for uwsgi to die
+2018-12-20 11:00:27,475 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 11:00:27,486 INFO supervisord started with pid 1
+2018-12-20 11:00:28,490 INFO spawned: 'nginx' with pid 7
+2018-12-20 11:00:28,493 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 11:00:29,538 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 11:00:29,538 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 11:03:28,191 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 11:03:28,193 INFO supervisord started with pid 1
+2018-12-20 11:03:29,197 INFO spawned: 'nginx' with pid 7
+2018-12-20 11:03:29,199 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 11:03:30,254 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 11:03:30,255 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 11:04:25,184 WARN received SIGTERM indicating exit request
+2018-12-20 11:04:25,184 INFO waiting for nginx, uwsgi to die
+2018-12-20 11:05:15,709 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 11:05:15,712 INFO supervisord started with pid 1
+2018-12-20 11:05:16,716 INFO spawned: 'nginx' with pid 7
+2018-12-20 11:05:16,721 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 11:05:17,779 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 11:05:17,779 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:01:57,301 WARN received SIGTERM indicating exit request
+2018-12-20 12:01:57,301 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:01:58,305 INFO stopped: uwsgi (exit status 0)
+2018-12-20 12:01:58,337 INFO stopped: nginx (exit status 0)
+2018-12-20 12:02:04,033 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:02:04,036 INFO supervisord started with pid 1
+2018-12-20 12:02:05,040 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:02:05,044 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:02:06,077 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:02:06,077 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:03:32,206 WARN received SIGTERM indicating exit request
+2018-12-20 12:03:32,208 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:03:33,213 INFO stopped: uwsgi (exit status 0)
+2018-12-20 12:03:34,908 INFO stopped: nginx (exit status 0)
+2018-12-20 12:03:46,922 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:03:46,925 INFO supervisord started with pid 1
+2018-12-20 12:03:47,928 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:03:47,930 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:03:48,955 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:03:48,956 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:05:00,553 WARN received SIGTERM indicating exit request
+2018-12-20 12:05:00,553 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:05:01,558 INFO stopped: uwsgi (exit status 0)
+2018-12-20 12:05:01,595 INFO stopped: nginx (exit status 0)
+2018-12-20 12:05:06,823 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:05:06,826 INFO supervisord started with pid 1
+2018-12-20 12:05:07,827 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:05:07,829 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:05:08,854 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:05:08,854 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:07:59,561 WARN received SIGTERM indicating exit request
+2018-12-20 12:07:59,561 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:08:00,563 INFO stopped: uwsgi (exit status 0)
+2018-12-20 12:08:00,600 INFO stopped: nginx (exit status 0)
+2018-12-20 12:08:06,738 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:08:06,740 INFO supervisord started with pid 1
+2018-12-20 12:08:07,747 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:08:07,749 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:08:08,771 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:08:08,771 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:19:48,427 WARN received SIGTERM indicating exit request
+2018-12-20 12:19:48,428 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:19:49,431 INFO stopped: uwsgi (exit status 0)
+2018-12-20 12:19:49,468 INFO stopped: nginx (exit status 0)
+2018-12-20 12:20:03,036 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:20:03,039 INFO supervisord started with pid 1
+2018-12-20 12:20:04,042 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:20:04,045 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:20:05,074 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:20:05,074 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:27:55,422 WARN received SIGTERM indicating exit request
+2018-12-20 12:27:55,422 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:27:57,433 INFO stopped: uwsgi (exit status 0)
+2018-12-20 12:27:57,459 INFO stopped: nginx (exit status 0)
+2018-12-20 12:28:02,881 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:28:02,883 INFO supervisord started with pid 1
+2018-12-20 12:28:03,889 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:28:03,895 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:28:04,920 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:28:04,920 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:30:16,212 WARN received SIGTERM indicating exit request
+2018-12-20 12:30:16,214 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:30:17,216 INFO stopped: uwsgi (exit status 0)
+2018-12-20 12:30:17,248 INFO stopped: nginx (exit status 0)
+2018-12-20 12:30:32,890 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:30:32,896 INFO supervisord started with pid 1
+2018-12-20 12:30:33,901 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:30:33,907 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:30:34,943 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:30:34,943 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:33:56,596 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:33:56,599 INFO supervisord started with pid 1
+2018-12-20 12:33:57,602 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:33:57,603 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:33:58,623 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:33:58,623 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:34:21,418 WARN received SIGTERM indicating exit request
+2018-12-20 12:34:21,422 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:40:13,511 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:40:13,515 INFO supervisord started with pid 1
+2018-12-20 12:40:14,522 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:40:14,526 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:40:15,546 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:40:15,546 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:42:13,180 WARN received SIGTERM indicating exit request
+2018-12-20 12:42:13,181 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:43:46,067 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:43:46,070 INFO supervisord started with pid 1
+2018-12-20 12:43:47,073 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:43:47,075 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:43:48,093 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:43:48,094 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:44:29,350 WARN received SIGTERM indicating exit request
+2018-12-20 12:44:29,351 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:45:02,921 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:45:02,925 INFO supervisord started with pid 1
+2018-12-20 12:45:03,929 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:45:03,936 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:45:05,158 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:45:05,158 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:46:11,152 WARN received SIGTERM indicating exit request
+2018-12-20 12:46:11,195 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:53:51,265 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:53:51,268 INFO supervisord started with pid 1
+2018-12-20 12:53:52,270 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:53:52,272 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:53:53,453 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:53:53,453 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:54:05,193 WARN received SIGTERM indicating exit request
+2018-12-20 12:54:05,193 INFO waiting for nginx, uwsgi to die
+2018-12-20 12:58:15,647 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:58:15,650 INFO supervisord started with pid 1
+2018-12-20 12:58:16,655 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:58:16,657 INFO spawnerr: can't find command '/usr/bin/uwsgi'
+2018-12-20 12:58:17,660 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:58:17,661 INFO spawnerr: can't find command '/usr/bin/uwsgi'
+2018-12-20 12:58:19,665 INFO spawnerr: can't find command '/usr/bin/uwsgi'
+2018-12-20 12:58:22,669 INFO spawnerr: can't find command '/usr/bin/uwsgi'
+2018-12-20 12:58:22,670 INFO gave up: uwsgi entered FATAL state, too many start retries too quickly
+2018-12-20 12:58:36,082 WARN received SIGTERM indicating exit request
+2018-12-20 12:58:36,082 INFO waiting for nginx to die
+2018-12-20 12:58:37,116 INFO stopped: nginx (exit status 0)
+2018-12-20 12:58:55,141 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-20 12:58:55,144 INFO supervisord started with pid 1
+2018-12-20 12:58:56,147 INFO spawned: 'nginx' with pid 7
+2018-12-20 12:58:56,149 INFO spawned: 'uwsgi' with pid 8
+2018-12-20 12:58:57,362 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-20 12:58:57,362 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-21 07:59:46,722 WARN received SIGTERM indicating exit request
+2018-12-21 07:59:46,772 INFO waiting for nginx, uwsgi to die
